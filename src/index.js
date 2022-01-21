@@ -1,6 +1,6 @@
 import "./style.css";
-import carrusel from "./carrusel";
 import menu from "./menu";
+import carrusel from "./carrusel";
 
 const body = document.querySelector("body");
 const buttonsDiv = document.createElement("div");
@@ -14,11 +14,12 @@ const menuButton = document.createElement("button");
 menuButton.classList.toggle("shifterButton");
 menuButton.textContent = "Menu desplegable";
 
-carrButton.addEventListener("click", carrusel());
-menuButton.addEventListener("click", menu());
-
 buttonsDiv.appendChild(carrButton);
 buttonsDiv.appendChild(menuButton);
 
 body.appendChild(buttonsDiv);
+
+carrButton.addEventListener("click", carrusel);
+menuButton.addEventListener("click", menu);
+
 console.log("here");
