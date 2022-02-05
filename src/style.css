@@ -4,7 +4,27 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
+
+
+.shifterButton {
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  background: #7a7876;
+  padding: 10px 20px 10px 20px;
+  margin: 0.2rem 1rem;
+}
+
+.shifterButton:hover {
+  background: #363c3f;
+} 
+
 
 .container {
   display: flex;
@@ -16,25 +36,26 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1.2rem;
-  border-radius: 5px;
   background-color: #4040407a;
-  width: 40%;
-  transition: height 2s linear 1s;
+  /* width: 40%; */
 }
 
 .menuTitle {
-  width: 60%;
   text-align: center;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid white;
+  margin: 0px;
 }
 
 .optionsList{
   display: flex;
   flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  transition: opacity 1s ease-out;
 }
 
 .optionsList >span {
   padding: 1rem;
-  border: 1px solid green;
-  margin: 5px 0;
+  border-bottom: 1px solid green;
 }
