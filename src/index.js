@@ -6,11 +6,11 @@ const body = document.querySelector("body");
 const buttonsDiv = document.createElement("div");
 buttonsDiv.classList.toggle("buttonsDiv");
 
-const carrButton = document.createElement("button");
+const carrButton = document.createElement("div");
 carrButton.classList.toggle("shifterButton");
 carrButton.textContent = "Carrusel";
 
-const menuButton = document.createElement("button");
+const menuButton = document.createElement("div");
 menuButton.classList.toggle("shifterButton");
 menuButton.textContent = "Menu desplegable";
 

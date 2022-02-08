@@ -16,14 +16,13 @@ export default function contenedormenu() {
   const contenedor = document.createElement("div");
   const title = document.createElement("h2");
   title.classList.toggle("menuTitle");
-  title.textContent = `Expandir ${String.fromCodePoint(0x1f447)}`;
+  title.innerHTML = "Menú <span class='arrow'></span>";
 
   contenedor.appendChild(title);
   contenedor.classList.toggle("contentDiv");
   const optionsDiv = document.createElement("div");
   optionsDiv.classList.toggle("optionsList");
-  optionsDiv.style.height = "0px";
-  const prs = ["Opción 1", "Opción 2", "Opción 3", "Opción 4", "Opción 5", "Opción 6"];
+  const prs = ["Opción 1", "Opción 2", "Opción 3", "Opción 4"];
   prs.forEach((element) => {
     const span = document.createElement("span");
     span.textContent = element;
@@ -32,14 +31,13 @@ export default function contenedormenu() {
 
   title.addEventListener("click", () => {
     const div = document.querySelector(".optionsList");
-    const text = document.querySelector(".menuTitle");
-    const value = div.style.height;
-    if (value == "auto") {
-      div.style.height = "0px";
-      text.textContent = `Expandir ${String.fromCodePoint(0x1f447)}`;
+    const arrow = document.querySelector(".arrow");
+    if (div.classList.contains("active") == false) {
+      div.classList.toggle("active");
+      arrow.classList.toggle("arrowActive");
     } else {
-      div.style.height = "auto";
-      text.textContent = `Contraer ${String.fromCodePoint(0x1f446)}`;
+      div.classList.toggle("active");
+      arrow.classList.toggle("arrowActive");
     }
   });
 
