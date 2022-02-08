@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-color: #201f2c;\\n  color: white;\\n  font-family: Arial, Helvetica, sans-serif;\\n  min-height: 100vh;\\n  margin: 0;\\n  display: flex;\\n  flex-direction: column;\\n  align-content: center;\\n  align-items: center;\\n}\\n\\n.buttonsDiv {\\n  display: flex;\\n}\\n\\n.shifterButton {\\n  border-radius: 10px;\\n  font-family: Arial;\\n  color: #ffffff;\\n  font-size: 25px;\\n  background: #2a3b7a;\\n  padding: 10px 20px 10px 20px;\\n  margin: 0.2rem 1rem;\\n}\\n\\n.shifterButton:hover {\\n  background: #3c55ad;\\n} \\n\\n\\n.container {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n\\n.contentDiv {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  background-color: #8f8b8b33\\n  /* width: 40%; */\\n}\\n\\n.menuTitle {\\n  text-align: center;\\n  padding: 1rem 1rem;\\n  border-bottom: 1px solid white;\\n  margin: 0px;\\n}\\n\\n.optionsList{\\n  display: flex;\\n  flex-direction: column;\\n  width: 100%;\\n  overflow: hidden;\\n  transition: 0.5s ease-out;\\n  height: 0;\\n}\\n\\n.optionsList >span {\\n  padding: 1rem;\\n  border-bottom: 1px solid #9094d5;\\n}\\n\\n.optionsList >span:hover {\\n  background-color: #2a3b7a;\\n}\\n\\n.arrow {\\n  width: 13px;\\n  height: 13px;\\n  display: inline-block;\\n  position: relative;\\n  bottom: -8px;\\n  left: 0;\\n  transition: 0.4s ease;\\n  text-align: left;\\n  transform: rotate(45deg);\\n  float: right;\\n  margin: 2px 5px 0 10px;\\n}\\n\\n.arrow:before, .arrow:after {\\n  position: absolute;\\n  content: \\\"\\\";\\n  display: inline-block;\\n  width: 12px;\\n  height: 3px;\\n  background-color: #fff;\\n  transition: 0.4s ease;\\n}\\n.arrow:after {\\n  position: absolute;\\n  transform: rotate(90deg);\\n  top: -5px;\\n  left: 5px;\\n}\\n\\n.arrowActive {\\n  transform: rotate(45deg) translate(-5px, -5px);\\n}\\n.arrowActive:before {\\n  transform: translate(10px, 0);\\n}\\n.arrowActive:after {\\n  transform: rotate(90deg) translate(10px, 0);\\n}\\n\\n.active{\\n  height: 204px;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://top-userinteraction/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-color: #201f2c;\\n  color: white;\\n  font-family: Arial, Helvetica, sans-serif;\\n  min-height: 100vh;\\n  margin: 0;\\n  display: flex;\\n  flex-direction: column;\\n  align-content: center;\\n  align-items: center;\\n}\\n\\n.buttonsDiv {\\n  display: flex;\\n}\\n\\n.shifterButton {\\n  border-radius: 10px;\\n  font-family: Arial;\\n  color: #ffffff;\\n  font-size: 25px;\\n  background: #2a3b7a;\\n  padding: 10px 20px 10px 20px;\\n  margin: 0.2rem 1rem;\\n}\\n\\n.shifterButton:hover {\\n  background: #3c55ad;\\n} \\n\\n\\n.container {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n\\n.contentDiv {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  background-color: #8f8b8b33\\n  /* width: 40%; */\\n}\\n\\n.menuTitle {\\n  text-align: center;\\n  padding: 1rem 1rem;\\n  border-bottom: 1px solid white;\\n  margin: 0px;\\n}\\n\\n.optionsList{\\n  display: flex;\\n  flex-direction: column;\\n  width: 100%;\\n  overflow: hidden;\\n  transition: 0.5s ease-out;\\n  height: 0;\\n}\\n\\n.optionsList >span {\\n  padding: 1rem;\\n  border-bottom: 1px solid #9094d5;\\n}\\n\\n.optionsList >span:hover {\\n  background-color: #2a3b7a;\\n}\\n\\n.arrow {\\n  width: 13px;\\n  height: 13px;\\n  display: inline-block;\\n  position: relative;\\n  bottom: -8px;\\n  left: 0;\\n  transition: 0.4s ease;\\n  text-align: left;\\n  transform: rotate(45deg);\\n  float: right;\\n  margin: 2px 5px 0 10px;\\n}\\n\\n.arrow:before, .arrow:after {\\n  position: absolute;\\n  content: \\\"\\\";\\n  display: inline-block;\\n  width: 12px;\\n  height: 3px;\\n  background-color: #fff;\\n  transition: 0.4s ease;\\n}\\n.arrow:after {\\n  position: absolute;\\n  transform: rotate(90deg);\\n  top: -5px;\\n  left: 5px;\\n}\\n\\n.arrowActive {\\n  transform: rotate(45deg) translate(-5px, -5px);\\n}\\n.arrowActive:before {\\n  transform: translate(10px, 0);\\n}\\n.arrowActive:after {\\n  transform: rotate(90deg) translate(10px, 0);\\n}\\n\\n.active{\\n  height: 204px;\\n}\\n\\n/* Carrusel de imgagenes */\\n.imgArrow {\\n  height: 50px;\\n  width: 50px;\\n  background-color: red;\\n}\\n\\n.activeImg {\\n  width: 800px;\\n  height: auto;\\n}\\n\\n.imgDIv {\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  transition: 2s ease-in-out;\\n\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://top-userinteraction/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -37,6 +37,56 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://top-userinteraction/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/img1.jpeg":
+/*!***********************!*\
+  !*** ./src/img1.jpeg ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"e877486728fe6696152f04c5ec7c343b.jpeg\");\n\n//# sourceURL=webpack://top-userinteraction/./src/img1.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img2.jpeg":
+/*!***********************!*\
+  !*** ./src/img2.jpeg ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b11d33da05e6e32614ef9f8692edb767.jpeg\");\n\n//# sourceURL=webpack://top-userinteraction/./src/img2.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img3.jpeg":
+/*!***********************!*\
+  !*** ./src/img3.jpeg ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"d79389e710c68c3b03ccf18eb10762b3.jpeg\");\n\n//# sourceURL=webpack://top-userinteraction/./src/img3.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img4.jpeg":
+/*!***********************!*\
+  !*** ./src/img4.jpeg ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"3ae2f76140784e5d62ba44feb2e0b0a3.jpeg\");\n\n//# sourceURL=webpack://top-userinteraction/./src/img4.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img5.jpeg":
+/*!***********************!*\
+  !*** ./src/img5.jpeg ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"9527aa97a2d10518a4167be380a8d3ad.jpeg\");\n\n//# sourceURL=webpack://top-userinteraction/./src/img5.jpeg?");
 
 /***/ }),
 
@@ -116,7 +166,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ carrusel)\n/* harmony export */ });\n/* eslint-disable eqeqeq */\nfunction carrusel() {\n  const oldDiv = document.querySelector(\".container\");\n  if (oldDiv != undefined) {\n    oldDiv.remove();\n  }\n\n  const body = document.querySelector(\"body\");\n\n  const newDiv = document.createElement(\"div\");\n  newDiv.classList.toggle(\"container\");\n  const divTitle = document.createElement(\"h1\");\n  divTitle.textContent = \"Carrusel de imagenes\";\n  newDiv.appendChild(divTitle);\n\n  body.appendChild(newDiv);\n}\n\n\n//# sourceURL=webpack://top-userinteraction/./src/carrusel.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ carrusel)\n/* harmony export */ });\n/* harmony import */ var _img1_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img1.jpeg */ \"./src/img1.jpeg\");\n/* harmony import */ var _img2_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img2.jpeg */ \"./src/img2.jpeg\");\n/* harmony import */ var _img3_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img3.jpeg */ \"./src/img3.jpeg\");\n/* harmony import */ var _img4_jpeg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img4.jpeg */ \"./src/img4.jpeg\");\n/* harmony import */ var _img5_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img5.jpeg */ \"./src/img5.jpeg\");\n/* eslint-disable eqeqeq */\n\n\n\n\n\n\nfunction carrusel() {\n  const oldDiv = document.querySelector(\".container\");\n  if (oldDiv != undefined) {\n    oldDiv.remove();\n  }\n\n  const images = [_img1_jpeg__WEBPACK_IMPORTED_MODULE_0__[\"default\"], _img2_jpeg__WEBPACK_IMPORTED_MODULE_1__[\"default\"], _img3_jpeg__WEBPACK_IMPORTED_MODULE_2__[\"default\"], _img4_jpeg__WEBPACK_IMPORTED_MODULE_3__[\"default\"], _img5_jpeg__WEBPACK_IMPORTED_MODULE_4__[\"default\"]];\n  let k = 0;\n\n  function mod(n, m) {\n    return ((n % m) + m) % m;\n  }\n\n  function changePic(n) {\n    const img = document.querySelector(\".activeImg\");\n    img.src = images[n];\n  }\n\n  function nextPic() {\n    k += 1;\n    const n = mod(k, 5);\n    console.log(n);\n    changePic(n);\n  }\n\n  function prevPic() {\n    k -= 1;\n    const n = mod(k, 5);\n    console.log(n);\n    changePic(n);\n  }\n\n  const body = document.querySelector(\"body\");\n\n  const newDiv = document.createElement(\"div\");\n  newDiv.classList.toggle(\"container\");\n  const divTitle = document.createElement(\"h1\");\n  divTitle.textContent = \"Carrusel de imagenes\";\n\n  const imgDiv = document.createElement(\"div\");\n  imgDiv.classList.add(\"imgDiv\");\n  const nextArrow = document.createElement(\"div\");\n  const prevArrow = document.createElement(\"div\");\n  prevArrow.classList.toggle(\"imgArrow\");\n  prevArrow.addEventListener(\"click\", prevPic);\n  const img = document.createElement(\"img\");\n  img.classList.toggle(\"activeImg\");\n  img.src = _img1_jpeg__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\n  nextArrow.classList.toggle(\"imgArrow\");\n  nextArrow.addEventListener(\"click\", nextPic);\n\n  imgDiv.appendChild(prevArrow);\n  imgDiv.appendChild(img);\n  imgDiv.appendChild(nextArrow);\n\n  newDiv.appendChild(divTitle);\n  newDiv.appendChild(imgDiv);\n\n  body.appendChild(newDiv);\n}\n\n\n//# sourceURL=webpack://top-userinteraction/./src/carrusel.js?");
 
 /***/ }),
 
@@ -191,6 +241,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -205,6 +267,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
