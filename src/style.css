@@ -111,3 +111,23 @@ body {
 .active{
   height: 204px;
 }
+
+/* Carrusel de imgagenes */
+.imgArrow {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+
+.activeImg {
+  width: 800px;
+  height: auto;
+}
+
+.imgDIv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 2s ease-in-out;
+
+}
