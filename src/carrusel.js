@@ -12,30 +12,6 @@ export default function carrusel() {
   }
 
   const images = [img1, img2, img3, img4, img0];
-  let k = 0;
-
-  function mod(n, m) {
-    return ((n % m) + m) % m;
-  }
-
-  function changePic(n) {
-    const img = document.querySelector(".activeImg");
-    img.src = images[n];
-  }
-
-  function nextPic() {
-    k += 1;
-    const n = mod(k, 5);
-    console.log(n);
-    changePic(n);
-  }
-
-  function prevPic() {
-    k -= 1;
-    const n = mod(k, 5);
-    console.log(n);
-    changePic(n);
-  }
 
   const body = document.querySelector("body");
 
@@ -46,22 +22,28 @@ export default function carrusel() {
 
   const imgDiv = document.createElement("div");
   imgDiv.classList.add("imgDiv");
-  const nextArrow = document.createElement("div");
   const prevArrow = document.createElement("div");
+  const nextArrow = document.createElement("div");
   prevArrow.classList.toggle("imgArrow");
-  prevArrow.addEventListener("click", prevPic);
-  const img = document.createElement("img");
-  img.classList.toggle("activeImg");
-  img.src = img1;
   nextArrow.classList.toggle("imgArrow");
-  nextArrow.addEventListener("click", nextPic);
 
   imgDiv.appendChild(prevArrow);
-  imgDiv.appendChild(img);
+
+  images.forEach((element) => {
+    const i = document.createElement("img");
+    i.classList.add("slideImg");
+    i.src = element;
+    imgDiv.appendChild(i);
+  });
+
   imgDiv.appendChild(nextArrow);
 
   newDiv.appendChild(divTitle);
   newDiv.appendChild(imgDiv);
 
+  const p = document.createElement("p");
+  p.textContent = "TODO: add arrows and timer to autoslide";
+
   body.appendChild(newDiv);
+  body.appendChild(p);
 }
